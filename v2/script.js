@@ -48,7 +48,7 @@ for (let i = 0; i < slideCount; i++) {
 function setSlideImage(slide, imageNumber) {
     if (slide.dataset.image === String(imageNumber)) return;
     slide.dataset.image = imageNumber;
-    slide.querySelector("img").src = `../img/slide-img-${imageNumber}.jpg`;
+    slide.querySelector("img").src = `./img/slide-img-${imageNumber}.jpg`;
 }
 
 let scroll = 0;
